@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "market-research",
-      "description": "Real estate market research skill that produces comprehensive, data-driven neighborhood and school analysis reports with interactive HTML visualizations.",
+      "description": "Real estate market research skill that produces comprehensive, data-driven neighborhood reports with interactive HTML visualizations.",
       "source": "./market-research",
       "version": "1.0.0"
     }
