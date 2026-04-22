@@ -1,17 +1,17 @@
 {
-  "skill_name": "market-research",
-  "evals": [
-    {
-      "id": 1,
-      "prompt": "I want to research Oakville neighborhoods and schools — show me how school ratings correlate with home prices.",
-      "expected_output": "Two markdown reference docs (neighborhoods + schools) with 40+ sources, then a single interactive HTML report with Chart.js charts, Leaflet map, neighborhood cards, school comparison table, and correlation analysis. Oakville uses Halton DSB (not YRDSB) so the skill needs to adapt school board context.",
-      "files": []
-    },
-    {
-      "id": 2,
-      "prompt": "Do a full neighborhood & school analysis for Richmond Hill, Ontario. I want to see which areas have the best value — good schools relative to price.",
-      "expected_output": "Two markdown reference docs with 40+ sources, then a single interactive HTML report. Richmond Hill shares YRDSB/YCDSB with Markham so there's overlapping school data — the skill should correctly scope to Richmond Hill schools only.",
-      "files": []
-    }
-  ]
+    "skill_name": "market-research",
+    "evals": [
+          {
+                  "id": 1,
+                  "prompt": "I want to research Boston neighborhoods for a buyer client — they want a walkable urban neighborhood with good transit access and strong resale value. Compare South End, Back Bay, and Beacon Hill.",
+                  "expected_output": "A markdown reference doc with 40+ sources covering neighborhood profiles, median home prices, price-per-sqft trends, days on market, walkability scores, MBTA access, and recent sales comps for South End, Back Bay, and Beacon Hill. Then a single interactive HTML report with Chart.js price trend charts, a Leaflet map with neighborhood boundaries, side-by-side neighborhood comparison cards, and a market summary with agent talking points for buyer consultations. No school research or school-rating analysis.",
+                  "files": []
+          },
+          {
+                  "id": 2,
+                  "prompt": "Do a full market analysis for Boston's Jamaica Plain neighborhood. I'm listing a property there and need current pricing trends, competing listings, and neighborhood selling points.",
+                  "expected_output": "A markdown reference doc with 40+ sources covering current median sale prices, list-to-sale price ratios, average days on market, active vs. sold inventory, buyer demand indicators, and Jamaica Plain neighborhood highlights (proximity to Franklin Park, Faulkner Hospital, Centre Street dining, commuter rail). Then a single interactive HTML report with Chart.js market trend charts, a Leaflet map, a competitive listing analysis table, and a seller-focused narrative with key marketing angles. No school research or school-rating analysis.",
+                  "files": []
+          }
+    ]
 }
